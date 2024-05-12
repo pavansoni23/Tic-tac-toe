@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+.gameContainer{
+    height: 70vh;
+    width: 40vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.game{
+    height: 60vh;
+    width: 30vw;
+    margin: auto;
+
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+
+
+.box{
+    margin: 0.3rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+    font-size: 4rem;
+    color: rgb(62, 7, 7);
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h2{
+    margin-top: 2rem;
+}
+
+#resetBtn{
+    padding: 0 1.5rem;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+
+    background-color: #191913;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.winnerClass{
+    font-size: 3rem;
+    color: rgb(62, 7, 7);
+}
